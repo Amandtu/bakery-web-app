@@ -1,0 +1,46 @@
+.container {
+    padding: 10px;
+    &:hover {
+        box-shadow: 0px 1px 5px #00000029 !important;
+        border-radius: 7px;
+    }
+    .footer {
+        padding: 5px 5px 0 5px;
+    }
+
+    .description {
+        color: #666;
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+
+    .truncate {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .currencySymbol {
+        font-weight: 400;
+    }
+
+    .rating {
+        background-color: #49a316;
+        padding: 2px 8px;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .image {
+        width: 100%;
+        height: auto; 
+        border-radius: 8px;
+    }
+
+}

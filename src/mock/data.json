@@ -1,0 +1,50 @@
+[
+    {
+        "id": "168702707372132dasd412e",
+        "description": "Fruit Cake",
+        "imgUrl": "https://img.freepik.com/free-photo/fruits-cake_74190-4962.jpg?t=st=1687101353~exp=1687101953~hmac=4f26475b0de13dcbffa942fdd90af94d7aa7053dcbc59c46e7c3b0b519999456",
+        "price": "789",
+        "rating": "4.3",
+        "reviewCount": 1235
+    },
+    {
+        "id": "1687027073797",
+        "description": "Chocolate Cake",
+        "imgUrl": "https://img.freepik.com/free-photo/chocolate-cake-with-liquid-chocolate-coating-decorated-with-biscuits-blueberries-black-background-ai-generative_123827-24054.jpg?t=st=1687076445~exp=1687077045~hmac=97e6909860256abd269fdf1269f4558323a68d30112c775cb0c13cb3ddebf0e8",
+        "price": "749",
+        "rating": "5",
+        "reviewCount": 883
+    },
+    {
+        "id": "168702707372132dasd4131",
+        "description": "White Cake",
+        "imgUrl": "https://img.freepik.com/free-photo/cream-forest-white-background-red_1203-6512.jpg?t=st=1687101353~exp=1687101953~hmac=3b9ba97b5ab62caa00d01c72ca86598d46a3297540ca82401ecf1f9dffc2fb9f",
+        "price": "729",
+        "rating": "4.4",
+        "reviewCount": 1790
+    },
+    {
+        "id": "16870270737913247",
+        "description": "Round Chocolate Truffle Cake",
+        "imgUrl": "https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?t=st=1687076445~exp=1687077045~hmac=185459a5905b5d9b2910a0c9a05ff0a93d6ec6a9f5f97bc207e49a5650e13c39",
+        "price": "669",
+        "rating": "4.5",
+        "reviewCount": 417
+    },
+    {
+        "id": "1687027073721324",
+        "description": "Oreo Cake",
+        "imgUrl": "https://img.freepik.com/premium-photo/chocolate-cake-with-biscuit-stuffed-decoration_538646-12826.jpg",
+        "price": "549",
+        "rating": "4.8",
+        "reviewCount": 8180
+    },
+    {
+        "id": "168702707372132dasd4",
+        "description": "Vanilla Cake",
+        "imgUrl": "https://img.freepik.com/free-photo/vanilla-cake-dessert-with-strawberry-top_74190-5936.jpg?t=st=1687101353~exp=1687101953~hmac=378122998a41d35008339d6e1ef5aab772dad3e6506cb3f9e4cbf5cc9c7fd0ea",
+        "price": "899",
+        "rating": "4.2",
+        "reviewCount": 179
+    }
+]

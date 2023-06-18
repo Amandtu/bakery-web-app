@@ -1,0 +1,45 @@
+.cartContainer {
+    padding: 100px;
+    display: flex;
+
+    .orderContainer{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: 2px solid hsla(0,0%,72.5%,.42);
+    }
+
+    .submitBtn {
+        position: absolute;
+        bottom: 0;
+        margin: 20px 0;
+        width: 120px;
+        height: 40px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: 1px solid #ff5f5d;
+        cursor: pointer;
+        color: #fff;
+        background-color: #ff5f5d;
+        max-width: 90%;
+    }
+
+    .emptyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cartContainer {
+        padding: 20px;
+        .orderContainer {
+            margin-left: 5px;
+        }
+    }
+}

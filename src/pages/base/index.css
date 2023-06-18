@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+.ctaBtn {
+    margin: 5px 0;
+    width: 120px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #ff5f5d;
+    color: #ff5f5d;
+    cursor: pointer;
+    background-color: #fff;
+    &:hover {
+        color: #fff;
+        background-color: #ff5f5d;
+    }
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+}

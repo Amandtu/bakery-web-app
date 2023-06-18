@@ -1,0 +1,24 @@
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .cardContainer {
+        padding: 0 8px 8px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .responsive-width {
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 461px) and (max-width: 560px) {
+    .responsive-width {
+        width: 45% !important;
+    }
+}
+
+
+
