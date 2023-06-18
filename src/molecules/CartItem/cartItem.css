@@ -26,9 +26,9 @@
         font-size: 24px;
         cursor: pointer;
     }
-    
+
     .infoAndAction {
-        padding-right: 8px;
+        padding-left: 8px;
     }
 
 }

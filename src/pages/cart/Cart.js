@@ -49,19 +49,16 @@ function Cart({ actions, cart, history }) {
           </button>
         </div>
       );
-  }, [cart]);
+  }, [cart, goBackToHome]);
 
-  const renderOrderSummary = useMemo(
-    () => (
-      <div className="orderContainer">
-        <h4 style={{ marginBottom: '8px' }}>Order Summary</h4>
-        <div>Total &nbsp;&nbsp;&nbsp;&nbsp;{orderTotal}</div>
-        <button className="submitBtn" onClick={onSubmit}>
-          Place Order
-        </button>
-      </div>
-    ),
-    [orderTotal]
+  const renderOrderSummary = () => (
+    <div className="orderContainer">
+      <h4 style={{ marginBottom: '8px' }}>Order Summary</h4>
+      <div>Total &nbsp;&nbsp;&nbsp;&nbsp;{orderTotal}</div>
+      <button className="submitBtn" onClick={onSubmit}>
+        Place Order
+      </button>
+    </div>
   );
 
   const renderContent = () => (
@@ -71,7 +68,7 @@ function Cart({ actions, cart, history }) {
           <CartItem key={item.id} item={item} onDeleteItem={onDelete} updateItem={actions.updateItemInCart} />
         ))}
       </div>
-      {renderOrderSummary}
+      {renderOrderSummary()}
     </div>
   );
 
